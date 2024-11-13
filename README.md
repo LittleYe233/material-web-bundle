@@ -12,6 +12,7 @@ I have tested it with Node.js v20.18.0.
 
 ```bash
 npm install # Pull down all packages
+bash -c "cd node_modules/@material/web && npm install" # Pull down dependencies
 npx rollup -c # Bundle it
 ```
 
